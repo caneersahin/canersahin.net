@@ -1,0 +1,64 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #282c34;
+}
+
+.iconSettings {
+  color: #54B4D3;
+  size: 50
+}
+
+.infoArea {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 10%;
+  flex-direction: column;
+}
+
+.itemArea {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+
+}
+
+.infoAreaItemSettings {
+  font-size: 16px;
+  margin-left: 0.5rem;
+  color: white;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.appItems {
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+  width: 35%;
+}
+
+.appItems:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.projectArea {
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  opacity: .25;
+}
