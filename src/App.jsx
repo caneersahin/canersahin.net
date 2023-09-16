@@ -7,7 +7,12 @@ import { BiSolidDice3 } from "react-icons/bi";
 import { BiSolidImage } from "react-icons/bi";
 import './App.css'
 
+
+
 function App() {
+  function openUrlInNewTab(url) {
+    window.open(url, '_blank');
+  }
   return (
     <>
       <h2>Web sitem güncelleniyor..</h2>
@@ -43,15 +48,15 @@ function App() {
       </div>
       <hr></hr>
       <div className='projectArea'>
-        <div className='appItems'>
-          <a className='appItemsButton' href='kura' target="_blank" rel="noopener noreferrer">
+        <div className='appItems' onClick={() => openUrlInNewTab('kura')}>
+          <a className='appItemsButton'>
             <BiSolidDice3 size={30} className='iconSettings' />
           </a>
           <div></div>
           <span>Kura App</span>
         </div>
-        <div className='appItems'>
-          <a className='appItemsButton' href='gorselAramaApp' target="_blank" rel="noopener noreferrer">
+        <div className='appItems'onClick={() => openUrlInNewTab('gorselAramaApp')} >
+          <a className='appItemsButton'>
             <BiSolidImage size={30} className='iconSettings' />
           </a>
           <div></div>
