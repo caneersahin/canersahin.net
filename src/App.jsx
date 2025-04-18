@@ -5,6 +5,8 @@ import { BiPhone } from "react-icons/bi";
 import { BiMailSend } from "react-icons/bi";
 import { BiSolidDice3 } from "react-icons/bi";
 import { BiSolidImage } from "react-icons/bi";
+import { GiCommercialAirplane } from "react-icons/gi";
+
 import './App.css'
 
 
@@ -61,6 +63,13 @@ function App() {
           </a>
           <div></div>
           <span>Görsel Arama App</span>
+        </div>
+        <div className='appItems'onClick={() => openUrlInNewTab('firsatrotasi')} >
+          <a className='appItemsButton'>
+            <GiCommercialAirplane size={30} className='iconSettings' />
+          </a>
+          <div></div>
+          <span>Ucuza Uçak Bileti</span>
         </div>
       </div>
     </>
