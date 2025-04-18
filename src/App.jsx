@@ -57,6 +57,7 @@ function App() {
           <div></div>
           <span>Kura App</span>
         </div>
+        
         <div className='appItems'onClick={() => openUrlInNewTab('gorselAramaApp')} >
           <a className='appItemsButton'>
             <BiSolidImage size={30} className='iconSettings' />
